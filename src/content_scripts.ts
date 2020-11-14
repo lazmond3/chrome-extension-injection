@@ -9,3 +9,12 @@ const execute = async () => {
 }
 
 execute()
+
+// ----------- メッセージ受信部分
+
+// これってbrowserでいいの？
+browser.runtime.onMessage.addListener(
+    (message:any, sender:any) => {
+        console.log(`message: ${message}`)
+    }
+)
