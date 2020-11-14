@@ -21,7 +21,7 @@ browser.runtime.onMessage.addListener(
             (async () => {
                 const value = await browser.storage.local.get('date');
                 console.log(value.date || '日時が記録されていません');
-            
+
                 const sampleTextPromise = await browser.storage.local.get("date")
                 const sampleText = sampleTextPromise.date as string
                 console.log(`sample text: ${sampleText}`)
@@ -37,7 +37,6 @@ const copyText = (text: string) => {
     document.body.appendChild(inputElement);
     inputElement.focus();
     inputElement.select();
-    // document.getSelection()?.selectAllChildren(inputElement);
     const r = document.execCommand("copy");
     document.body.removeChild(inputElement);
     console.log(`return value: ${r}`)
