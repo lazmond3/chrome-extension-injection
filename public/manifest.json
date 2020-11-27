@@ -18,6 +18,7 @@
     "permissions": [
         "activeTab",
         "webRequest",
+        "webRequestBlocking",
         "*://*.google.com/",
         "https://lazmond3.github.io/clear/"
     ],
