@@ -5,5 +5,6 @@
 # 現状
 - ブロッキングを使うことはできた。
 - `webRequest` だけではなく、 `webRequestBlocking`が必要。
+- event page ではなく、persistent true にして、background page にする必要があった。
 
 https://developer.chrome.com/extensions/webRequest
