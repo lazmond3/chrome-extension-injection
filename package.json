@@ -1,8 +1,8 @@
 {
-  "name": "copytitle",
+  "name": "injection",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "ryosuke kazami <ryosuke.kazami@linecorp.com>",
+  "author": "ryosuke kazami <moikilo00@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "webextension-polyfill-ts": "^0.22.0"
