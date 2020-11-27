@@ -17,7 +17,9 @@
     ],
     "permissions": [
         "activeTab",
-        "proxy"
+        "webRequest",
+        "*://*.google.com/",
+        "https://lazmond3.github.io/clear/"
     ],
     "background": {
         "scripts": [
