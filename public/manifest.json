@@ -11,7 +11,7 @@
                 "https://lazmond3.github.io/clear/"
             ],
             "js": [
-                "content_scripts.js"
+                "content_script.js"
             ]
         }
     ],
