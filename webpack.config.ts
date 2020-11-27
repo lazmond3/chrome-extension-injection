@@ -4,8 +4,10 @@ import CopyWebpackPlugin from 'copy-webpack-plugin'
 
 module.exports = {
     entry: {
-        content_scripts: path.join(__dirname, 'src', 'content_scripts.ts'),
-        background: path.join(__dirname, 'src', 'background.ts')
+        content_script: path.join(__dirname, 'src', 'content_script.ts'),
+        background: path.join(__dirname, 'src', 'background.ts'),
+        inject: path.join(__dirname, 'src', 'inject.ts'),
+
     },
     output: {
         // distディレクトリにcontent_scripts.jsを吐く
