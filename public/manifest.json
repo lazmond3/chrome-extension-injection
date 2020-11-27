@@ -23,5 +23,31 @@
             "background.js"
         ],
         "persistent": false
+    },
+    "commands": {
+        "copy-spaced": {
+            "suggested_key": {
+                "mac": "Alt+Shift+C"
+            },
+            "description": "copy spaced"
+        },
+        "copy-url": {
+            "suggested_key": {
+                "mac": "Alt+Shift+F"
+            },
+            "description": "copy url"
+        },
+        "copy-title": {
+            "suggested_key": {
+                "mac": "Alt+Shift+T"
+            },
+            "description": "copy title"
+        },
+        "copy-markdown": {
+            "suggested_key": {
+                "mac": "Alt+Shift+M"
+            },
+            "description": "copy markdown"
+        }
     }
 }
